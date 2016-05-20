@@ -368,6 +368,12 @@ footer{
 	padding:0.5em 0 0.3em 3em;
 }
 /********************
+----MOBILE-STYLES----
+********************/
+.mobile-only{
+	display: none;
+}
+/********************
 ----MEDIA-QUERIES----
 ********************/
 @media (max-width: 1306px){
@@ -376,5 +382,25 @@ footer{
 	}
 	.extras img{
 		max-width: none;
+	}
+}
+@media (max-width: 960px){
+	body{
+		font-size: 16px;
+		line-height: 21px;
+	}
+	.mobile-only{
+		display: inherit;
+	}
+	.mobile-hidden{
+		display: none;
+	}
+	.hero{
+		justify-content: flex-end;
+		margin: 0;
+	}
+	.hero img{
+		margin: 0;
+		width: 100%;
 	}
 }
