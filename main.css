@@ -376,7 +376,7 @@ footer{
 /********************
 ----MEDIA-QUERIES----
 ********************/
-@media (max-width: 1306px){
+@media only screen and(max-width: 1306px){
 	.one-half p{
 		width:90%;
 	}
@@ -384,7 +384,7 @@ footer{
 		max-width: none;
 	}
 }
-@media (max-width: 780px){
+@media only screen and (max-width: 780px){
 	body{
 		font-size: 16px;
 		line-height: 21px;
@@ -403,4 +403,11 @@ footer{
 		margin: 0;
 		width: 100%;
 	}
+	.hero .left-half{
+		margin: 0;
+		padding: 0;
+	}
 }
+/******************
+----MOBILE-MENU----
+******************/
