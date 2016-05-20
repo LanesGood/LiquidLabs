@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Liquid Labs </title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header class=" section group">
+		<div id="logo" class="">
+			<!--logo-->
+			<figure>
+				<img src="img/BADBA46DE6EF636F.png" class="col span_8_of_12">
+				<caption>
+					<p></p>
+				</caption>
+			</figure>
+		</div>
+		<div id="menu">
+			<nav>
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Order</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<img id="logomark" src="img/logo_mark.png">
+			</nav>
+		</div>
+	</header>
+	<div class="hero">
+		<div class="section group">
+			<div class="col span_3_of_12 push">
+			</div>
+			<div class="col span_2_of_12 text-right">
+				<h1 class="title">Nutrition</h1>
+				<h3 class="subtitle">In Balance</h3>
+				<hr class="thick">
+				<p>Feeding your body<br>with whole foods<br>and natural produce<br>is the best long term<br>strategy for maintaining<br>good health.</p>
+				<p><span>Liquid<br>Lab</span><br>is part of that strategy.</p>
+			</div>
+			<img src="img/EarthJuice.png" alt="Earth juice from LiquidLab">
+			<div class="col span_4_of_12">
+				<p class="bottom-text">Reach your full potential<br>through balance, not<br>extremes. Whatever<br>your lifestyle, we have<br>the juice to<br>get you there.</p>
+			</div>
+		</div>
+	</div>
+	<fieldset><!--horizontal line with floating image-->
+		<legend><img src="img/downTriangle.png"></legend>
+	</fieldset>
+	<div class="group" id="howWorks">
+		<div class="section">
+			<div class="col span_3_of_12"></div>
+			<div class="col text-right span_3_of_12">
+				<h2 class="title2">Whole Ingredients</h2>
+				<h3 class="subtitle2">Custom Selected for You</h3>
+				<hr class="thick">
+				<p>When you register for LIQUIDLAB's custom service, we'll create a juice program designed for your health. If you're already committed to a healthy lifestyle and are looking to incorporate fresh juice as a part of a balanced diet, our custom plan might be just what you're looking for. It takes under 15 minutes to get started.</p>
+				<h3 class="subtitle3">Step One: Life</h3>
+				<p>Do you have the energy for the life you seek? Happily balancing work, home, and exercise? Or maybe you're somewhere in-between?</p>
+				<img class="wrapped-image" id="pears" src="img/pears.jpg">
+			</div>
+			<div class="col span_3_of_12">
+				<p><img class="wrapped-image" id="peaches" src="img/peaches.jpg"></p>
+				<h3 class="subtitle3">Step Two: Goals</h3>
+				<p>What are you trying to achieve?Whether you're looking to get in shape or maintain your current level of fitness, we can help.</p>
+				<h3 class="subtitle3">Step Three: Diet</h3>
+				<p>Let us know about your current diet and favorite flavors. We've got a delicious juice blend to suit your nutritional needs and tastes.</p>
+				<h2 class="title2">Get Started</h2>
+				<h3 class="subtitle2">With your balanced plan</h3>
+				<p>We'll put together the perfect juice plan, just for you.</p>
+			</div>
+		</div>
+		<div class="section group center-button">
+			<a class="button " href="#">Customize</a>
+		</div>
+	</div>
+	<div class="group section">
+		<div class="break">
+			<div class="text-right col span_6_of_12">
+				<h1 class="title">Jump-Start A<br>Healthy You With<br>LiquidLab</h1>
+			</div>
+			<div class="col span_6_of_12">
+				<img src="img/kiwis.jpg">
+			</div>
+		</div>
+	</div>
+	<div class="group section">
+		<div class="col span_6_of_12">
+			<img src="img/products.jpg" alt="LiquidLab's four juice offerings">
+		</div>
+		<div class="col span_6_of_12">
+			<h1 class="title">Short on time?<br>Not sure where to start?</h1>
+			<h2 class="subtitle">Try one of our Juice Sampler Packages</h2>
+		</div>
+	</div>
+	<div class="group section samples">
+		<div class="col span_7_of_12 text-right">
+			<div class="section group">	
+				<div class="col span_9_of_12">
+					<h2 class="subtitle3">No Time for Salad?</h2>
+					<h3 class="subtitle">Drink your vegetables</h3>
+				</div>
+				<div class="col span_3_of_12">
+					<img src="img/greenjuice.png">
+				</div>
+			</div>
+			<div class="section group">	
+				<div class="col span_9_of_12">
+					<h2 class="subtitle3">The Sweet Tooth</h2>
+					<h3 class="subtitle">Drink your reward</h3>
+				</div>
+				<div class="col span_3_of_12">
+					<img src="img/orange.png">
+				</div>
+			</div>
+			<div class="section group">	
+				<div class="col span_9_of_12">
+					<h2 class="subtitle3">Subway defender</h2>
+					<h3 class="subtitle">Drink your immunity</h3>
+				</div>
+				<div class="col span_3_of_12">
+					<img src="img/beetjuice.png">
+				</div>
+			</div>
+		</div>
+		<div class="col span_5_of_12">
+			<a class="button" href="#">Order Samplers</a>
+		</div>
+	</div>
+	<div class="group section">
+		<div class="col span_6_of_12">
+			<img src="img/TableMint.jpg">
+		</div>
+		<div class="col span_4_of_12">
+			<h1 class="title">Green Juice<br>Produced Greenly</h1>
+			<p>At LiquidLab, we do things the right way. We work with local farms to source our all-organic produce. Nothing goes into our juice that isn’t from within a 100-mile radius of our headquarters. Which means we use less fossil fuels to transport and produce our juice. And support small local farms in the process.</p>
+			<a href="#"><h3 class="subtitle3">Learn more about our commitment to the environment</h3></a>
+		</div>
+	</div>
+	<div class="group section">
+		<div class="col span_2_of_12 push">
+		</div>
+		<div class="col span_4_of_12 text-right">
+			<h1 class="title">About Us</h1>
+			<p>LiquidLab was founded in 2014 by three close friends who wanted to help others improve their lifestyle and incorporate more fresh fruit and veggies into their diets.</p>
+			<a href="#"><h3 class="subtitle3">Learn more about us</h3></a>
+		</div>
+		<div class="col span_6_of_12">
+			<img src="img/phonejuice.jpg">
+		</div>
+	</div>
+	<footer><!--footer with background image-->
+		<div class="footer-container group">
+			<div class="col span_6_of_12 text-right">
+				<img class="logo" src="img/BADBA46DE6EF636F.png">
+				<h1 class="title">Nutrition<br>in Balance</h1>
+			</div>
+			<div class="col span_6_of_12">
+				<h1 class="title">Address</h1>
+				<p><address>115 12th St. NW<br>Washington DC 20019</address></p>
+				<h1 class="title">Contact</h1>
+				<p>202-151-2299</p>
+				<p><a href="mailto:info@liquid.la">E: Info@Liquid.La</a></p>
+			</div>
+		</div>
+		<div class="social-bar "><!--social bar affixed to bottom-->
+			<div class="col span_3_of_12">
+				<a href="#"><h4 class="subtitle3">Terms</h4></a>
+			</div>
+			<div class="col span_6_of_12"><!--center these icons-->
+				<ul>
+					<li><i>facebook</li>
+					<li><i>twitter</li>
+					<li><i>instagram</li>
+				</ul>
+			</div>
+			<div class="col span_3_of_12">
+				<h4 class="subtitle3">&copy;2015 LiquidLab</h4>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
