@@ -23,7 +23,7 @@
 					<img id="logomark" src="img/logo_mark.png">
 				</div>
 				<div class="mobile-only"> 
-					<img class="hamburger-menu" src="img/hamburger-menu.svg">
+					<a href="#" class="mobile-only hamburger"><img src="img/hamburger-menu.svg"></a>
 				</div>
 			</nav>
 		</div>
@@ -183,4 +183,11 @@
 		</div>
 	</footer>
 </body>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.hamburger').on('click', function() {
+			$('.navigation').slideToggle();
+	});
+});
+</script>
 </html>
