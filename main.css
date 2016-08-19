@@ -8,7 +8,7 @@ TYPOGRAPHY
 body{
 	font-family: 'Avenir', 'Helvetica', sans-serif, Arial;
 	font-size: 18px;
-	line-height: 25px; 
+	line-height: 1.45; 
 	vertical-align: baseline;
 }
 h1, h2, h3, h4, h5, h6{
@@ -131,6 +131,7 @@ header{
 	.left-half{
 		margin-left: -2em;
 		padding: 10px 20px;
+		text-align: right;
 	}
 	.hero img{
 		margin-left: -.7em;
@@ -158,6 +159,10 @@ header{
 	justify-content: center;
 	align-items: center;
 }
+	.horiz-line a:hover img{
+		width: 120%;
+		margin: 0 auto;
+	}
 /******************
 ----HOW-IT-WORKS---
 ******************/
@@ -174,6 +179,7 @@ header{
 		padding-top: 2em;
 		padding-right: 1em;
 		flex-basis: 50%;
+		text-align: right;
 	}
 	.right-steps{
 		padding-top: 22em;
@@ -222,7 +228,8 @@ header{
 -------BREAK--------
 *******************/
 
-.section{
+.break-bar,
+.band{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -266,6 +273,12 @@ header{
 .sample-pack div:last-child{
 	margin: 0 2em;
 }
+.juice-circle{
+	margin: 0 2em;
+}
+.samples .button {
+	margin: 2em;
+}
 /********************
 -------LAYOUT--------
 ********************/
@@ -292,11 +305,12 @@ header{
 	text-align: left;
 	margin: 0;
 }
-.flex-column{
+.sample-section{
 	display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
+    text-align: right;
 }
 
 /********************
@@ -395,8 +409,30 @@ footer{
 		display: none;
 	}
 	#howWorks{
-		flex-wrap: wrap;
+		display: block;
+		width: 75%;
+		padding: 0;
 	}
+	.left-steps{
+		padding:0;
+		flex-basis: 1;
+		text-align: left;
+	}
+	.right-steps{
+		padding: 0;
+		flex-basis: 1;
+	}
+	#pears,
+	#peaches{
+		margin: -3em auto;
+		max-width: 100%;
+		position: relative;
+		right: 0;
+	}
+	.subtitle3 {
+		margin: 1em 0;
+	}
+
 	.hero{
 		justify-content: flex-end;
 		margin: 0;
@@ -409,17 +445,33 @@ footer{
 		margin: 0;
 		padding: 0;
 	}
-	.sample-pack div:first-child{
-		padding-right: 0;
-	}
-	.sample-pack img{
-		max-width: 90%;
+	/*----------------
+		Sample Pack*/
+		.samples,
+		.sample-pack,
+		.sample-section{
+			display: block;
+			text-align: center;
+		}
+		.sample-pack div:first-child{
+			padding-right: 0;
+		}
+		.juice-circle{
+			max-width: 70%;
+		}
+	.one-half{
+		width: 100%;
 	}
 	.one-half p{
-		width:90%;
+		width: 60%;
 	}
 	.one-half h2{
 		width: 90%;
+	}
+	.band{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
 	}
 }
 /******************
