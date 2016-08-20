@@ -373,14 +373,19 @@ footer{
 .social-bar .subtitle3{
 	margin: 0;
 }
-.social-bar a img{
+.social-bar svg{
 	height:50px;
+	fill: #000;
 }
 .social-bar a:hover{
 	font-weight: bold;
 }
 #social-icons{
 	padding:0.5em 0 0.3em 3em;
+}
+.sIcon:hover{
+	fill: #000;
+	stroke: 2px #000;
 }
 /********************
 ----MOBILE-STYLES----
@@ -435,11 +440,11 @@ footer{
 
 	.hero{
 		justify-content: flex-end;
-		margin: 0;
+		margin-top: 1em;
+		overflow: hidden;
 	}
 	.hero img{
-		margin: 0;
-		width: 100%;
+		margin-right: -10vw;
 	}
 	.hero .left-half{
 		margin: 0;
