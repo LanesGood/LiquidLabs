@@ -1,3 +1,12 @@
+/*
+============================
+Liquid Labs: main stylesheet
+============================
+*/
+
+/*
+Box sizing
+*/ 
 *, *:after, *:before{
 	box-sizing: border-box;
 }
@@ -383,10 +392,6 @@ footer{
 #social-icons{
 	padding:0.5em 0 0.3em 3em;
 }
-.sIcon:hover{
-	fill: #000;
-	stroke: 2px #000;
-}
 /********************
 ----MOBILE-STYLES----
 ********************/
@@ -408,7 +413,7 @@ footer{
 		line-height: 21px;
 	}
 	.mobile-only{
-		display: inherit;
+		display: ;
 	}
 	.mobile-hidden{
 		display: none;
@@ -478,10 +483,49 @@ footer{
 		width: 90%;
 		margin: 0 auto;
 	}
+
+	/*
+	----MOBILE-MENU----
+	*/
+	.hamburger-menu{
+		width: 10vh;
+	}
 }
-/******************
-----MOBILE-MENU----
-******************/
-.hamburger-menu{
-	width: 10vh;
+@media only screen and (max-width: 657px) {
+	/*
+	----Footer----
+	*/
+	.footer-container {
+		flex-direction: column;
+		padding: 0;
+	}
+	.footer-container .one-half{
+		text-align: center;
+		padding: 1em 0;
+	}
+	.footer-container img{ 
+		width: 12em;
+	}
+	.footer-info h1 {
+		font-size: 1.5em;
+	}
+	.footer-info p,
+	.footer-info a,
+	.footer-info address{
+		font-size: 1em;
+		line-height: inherit;
+	}
+	#social-icons {
+		padding: 0;
+	}
+	.social-bar {
+		font-size: .8em;
+		justify-content: space-between;
+	}
+	.social-bar ul{
+		padding-left: 3em;
+	}
+	.social-bar svg {
+		height: 30px;
+	}
 }
